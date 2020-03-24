@@ -1,0 +1,9 @@
+- fazer requisição da mensagem criptografada OK
+- salvar um arquivo answer.json com as informações recebidas OK
+- decifrar a mensagem, mantendo inalterados os numeros e pontos OK
+- atualizar o campo decifrado do arquivo OK
+- gerar um resumo criptográfico do campo decifrado usando sha1 OK
+
+- submeter o arquivo atualizado via POST (multipart/form-data) para o endpoint declarado
+- como se fosse enviado por um formulário html, com um campo do tipo file, com o nome answer.
+- o retorno será a nota ou o erro correspondente
